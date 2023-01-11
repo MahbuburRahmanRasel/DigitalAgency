@@ -1,0 +1,81 @@
+:root{
+    --primary-color: red;
+    --secondary-color: white;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:#D5D2D2;
+    padding: 20px;
+    align-items: center;
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+}
+
+ul li {
+
+    text-decoration: none;
+    display: inline;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.banner{
+    background-image: url("./asset/image/background.jpg"),
+        linear-gradient(rgba(0 ,0, 0 ,0.3),rgba(0 ,0, 0, 0.4));
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.primary{
+    color: var(--primary-color);
+}
+
+.banner h1 {
+    font-size: 5.2em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.banner p {
+    width: 50%;
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.banner button{
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+   font-size: 1.2em;
+   text-transform: uppercase;
+}
+.btn1{
+    background-color:var(--primary-color);
+    color: white;
+}
